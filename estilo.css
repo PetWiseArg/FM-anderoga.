@@ -10,7 +10,7 @@
 
 body {
     /* Fondo animado con gradiente */
-    background: linear-gradient(270deg, #5fff74, #ffc371, #47c6ff, #e2b22d);
+    background: linear-gradient(270deg, #5fff74, #ffc371, #47c6ff, #0ff32d);
     background-size: 800% 800%;
     animation: gradientAnimation 15s ease infinite;
 
@@ -33,7 +33,7 @@ body {
 
 /* ================= RADIO PLAYER ================= */
 .radio-player {
-    background: rgba(87, 87, 87, 0.137);
+    background: rgba(87, 87, 87, 0.452);
     padding: 30px 25px;
     border-radius: 25px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.5);
@@ -107,7 +107,7 @@ body {
     width: 160px;
     height: 6px;
     border-radius: 5px;
-    background: linear-gradient(90deg, #ffb36b, #ff643d);
+    background: linear-gradient(90deg, #1f88c5, #3dfff5);
     outline: none;
     -webkit-appearance: none;
 }
