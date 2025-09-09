@@ -9,17 +9,26 @@
 }
 
 body {
-    background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* Fondo animado con gradiente */
+    background: linear-gradient(270deg, #5fff74, #ffc371, #47c6ff, #e2b22d);
+    background-size: 800% 800%;
+    animation: gradientAnimation 15s ease infinite;
 
-    /* Flex para centrar vertical y horizontal en móviles */
+    /* Flex para centrar contenido */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Animación del fondo */
+@keyframes gradientAnimation {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 
 /* ================= RADIO PLAYER ================= */
